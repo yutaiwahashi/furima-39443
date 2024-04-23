@@ -15,7 +15,7 @@ has_many :item
 | Column        | Type       | Options                        |
 | ------------- | ---------- | ------------------------------ |
 | id            | integer    |null: false  |
-| user_id       | integer    |null: false  |
+| user_id       | integer    |null: false  foreign_key: true|
 | name          | string     |null: false  |
 | image_url     | string     |null: false  |
 | description   | text       |null: false  |
@@ -29,7 +29,7 @@ has_one :ordets
 | ------------------- | ---------- | ------------------------------ |
 | id                  | integer    |null: false  |
 | buyer_id            | integer    |null: false  |
-| item_id             | integer    |null: false  |
+| item_id             | integer    |null: false, foreign_key: true  |
 | quantity            | integer    |null: false  |
 | total_price         | decimal    |null: false  |
 | status              | string     |null: false  |
