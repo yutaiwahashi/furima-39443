@@ -38,7 +38,7 @@
 
 ### Association
 - Order belongs_to :item
-- Order belongs_to :buyer, class_name: 'User'
+- Order belongs_to :buyer
 
 ## ShippingAddressesテーブル
 | Column            | Type       | Options                        |
