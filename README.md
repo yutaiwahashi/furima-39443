@@ -1,4 +1,4 @@
-
+# テーブル設計
 
 ### Usersテーブル
 | Column          | Type       | Options                        |
@@ -14,13 +14,13 @@ has_many :item
 ### Itemsテーブル
 | Column        | Type       | Options                        |
 | ------------- | ---------- | ------------------------------ |
-| id            | integer    |null: false  |
-| user_id       | integer    |null: false  foreign_key: true|
-| name          | string     |null: false  |
-| image_url     | string     |null: false  |
-| description   | text       |null: false  |
-| category      | string     | null: false |
-| condition     | string     |null: false  |
+| id            | integer    |null: false                     |
+| user_id       | integer    |null: false  foreign_key: true  |
+| name          | string     |null: false                     |
+| image_url     | string     |null: false                     |
+| description   | text       |null: false                     |
+| category      | string     | null: false                    |
+| condition     | string     |null: false                     |
 ### Association
 has_one :ordets
 
