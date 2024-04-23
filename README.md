@@ -1,4 +1,4 @@
-## データベース設計
+https:/## データベース設計
 
 ### Usersテーブル
 | Column          | Type       | Options                        |
@@ -48,5 +48,3 @@ has_one :ordets
 | street_address     | string     |null: false   | 
 | building_name      | string     |NOT NULL      |
 | phone_number       | string     |null: false   |
-
-
