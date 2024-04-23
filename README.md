@@ -1,6 +1,4 @@
-
-
-### データベース設計
+### DB設計
 
 ### Usersテーブル
 | Column          | Type       | Options                        |
